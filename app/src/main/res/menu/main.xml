@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/menu_home"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/nav_restaurant"
+        android:icon="@drawable/baseline_dining_24"
+        android:title="@string/menu_restaurant"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/nav_information"
+        android:icon="@drawable/baseline_info_24"
+        android:title="@string/menu_information" />
+    <item
+        android:id="@+id/nav_setting"
+        android:orderInCategory="100"
+        android:icon="@drawable/baseline_build_circle_24"
+        android:title="@string/menu_setting"
+        app:showAsAction="never" />
+</menu>
