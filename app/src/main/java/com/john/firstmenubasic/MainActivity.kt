@@ -80,8 +80,6 @@ Para controlar los eventos de los items del toolbar
                 true
             }
 
-
-
             R.id.nav_setting ->{
                 navController.navigate(R.id.nav_setting)
                 true
