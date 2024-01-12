@@ -36,13 +36,11 @@ class InformationFragment : Fragment() {
         binding.itemRestaurante.txtviewCity.text     = city
         binding.itemRestaurante.txtviewProvince.text = province
         binding.itemRestaurante.txtviewPhone.text    = phone
-        //Picasso.get().load(image).into(binding.itemRestaurante.ivRestaurant)
         Glide.with(requireView().context).load(image).centerCrop().into(binding.itemRestaurante.ivRestaurant)
-
-
-        Toast.makeText(requireActivity(), "Mi nombre es $name", Toast. LENGTH_LONG ).show()
+        Toast.makeText(context, "Este es el restaurante $name" +
+                " de la posición $pos", Toast.LENGTH_LONG).show()
     }
-   
+
 
 }
 // Definimos la función component6 para arrays
